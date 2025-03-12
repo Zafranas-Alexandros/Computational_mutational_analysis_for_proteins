@@ -1,5 +1,5 @@
-# Computational_mutational_analysis_for_proteins
-This repository sotres code used for the production and analysis of molecular dynamics simulations regarding a protein solved in water
+# Computational mutational analysis for proteins
+This repository stores code used for the production and analysis of molecular dynamics simulations regarding a protein solved in water
 
 ## Dependencies
 ### Any later version (sub-version) of the following should work.
