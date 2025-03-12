@@ -22,5 +22,5 @@ directory; this is the working directory. If starting from a .pdb file, simply p
 2. Run the simulation.py script to execute the simulation - this performs energy minimization, equilibration and the unrestrained molecular dynamics production run. If one doesn't wish to use a job scheduler -slurm is used as an example in the scripts- simply run simulation.py directly.
 3. After the simulation is complete, copy the contents of the /analysis directory in the /data_wdir directory.
 4. Run the general_analysis.ipynb notebook first, followed by the PCA.ipynb notebook. Minor modifications in the general_analysis notebook are necessary depending on the location of the installation of VMD; the second cell of the notebook calls upon VMD.
-5. Finally, in the Pyinteraph folder, run the two shell scripts named srcipt_1.sh and script_2.sh, before running the pyinteraph.ipynb notebook
+5. Finally, in the Pyinteraph folder, run the two shell scripts named srcipt_1.sh and script_2.sh, before running the Pyinteraph.ipynb notebook. For the shell scripts, it is necessary to set the activation of the correct conda environment; the one containing the pyinteraph installation.
 
