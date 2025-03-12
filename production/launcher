@@ -1,0 +1,9 @@
+#!/bin/bash
+#SBATCH --job-name=TP53_simulation_wt
+#SBATCH --output=slurm/TP53_simulation_wt.slurm
+#SBATCH --error=slurm/TP53_simulation_wt.slurm
+
+
+source /PATH-TO-GROMACS-INSTALL-DIR/GMXRC
+python3 simulation.py
+
