@@ -1,5 +1,5 @@
 # Computational mutational analysis for proteins
-This repository stores code used for the production and analysis of molecular dynamics simulations regarding a protein solved in water
+This repository stores code used for the production and analysis of molecular dynamics simulations regarding a protein solved in water.
 
 ## Dependencies
 ### Any later version (sub-version) of the following should work.
@@ -12,8 +12,9 @@ Python 3
 - numpy, scipy, matplotlib, seaborn, pandas
 - MDAnalysis
 - Pyinteraph
-For pyinteraph one can directly follow the installation on the respective github page:
+For pyinteraph it is strongly advised that one directly follows the installation on the respective github page:
 https://github.com/ELELAB/pyinteraph
+
 
 ## How to use
 
